@@ -1,0 +1,45 @@
+# Terraform
+.terraform/
+terraform/tfplan
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files - may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Additional virtual environments
+.venv-*/
+
+# Temporary test/output files
+*-output.txt
+*-test.txt
+
+# Generated ML model binaries
+**/xgboost-model
+**/xgboost-model-*
+**/xgboost-model.bin
