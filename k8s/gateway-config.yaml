@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-config
+  namespace: gateway
+data:
+  FRAUD_SERVICE_URL: "http://fraud-service.fraud.svc.cluster.local"
+  RECOMMENDATIONS_SERVICE_URL: "http://recommendations-service.recommendations.svc.cluster.local"
+  FORECASTING_SERVICE_URL: "http://forecasting-service.forecasting.svc.cluster.local"
