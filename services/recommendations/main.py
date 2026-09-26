@@ -72,3 +72,4 @@ def predict(request: RecommendationRequest):
             status_code=500,
             detail=f"SageMaker inference failed: {str(e)}"
         )
+
